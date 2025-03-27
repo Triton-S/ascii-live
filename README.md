@@ -41,9 +41,18 @@ var myAnimationFrames = []string{
 * In [`./frames/frames.go`](./frames/frames.go), add your animation to the `FrameMap`
 * Commit and push your changes, and make a PR! If this is your first time making a PR, [check GitHub's help page on the topic](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
 
-##@@
+
 ## CHANGING FRAME SPEED IS INSIDE frames.go IN BOLD COMMENTS
-##@@
+```Golang
+// Sleep time between frames
+func DefaultGetSleep() func() time.Duration {
+	return func() time.Duration {		//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@2@@@@@@
+		return time.Millisecond * 200   //<--------USE THIS TO CHANGE HOW FAST FRAMES CHANGE!!!!		@DEFAULT 70
+	}					//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+}
+
+
+```
 
 ## Frame Contributions
 Here's a list of lovely people who have contributed frames to this project:
