@@ -41,7 +41,9 @@ var myAnimationFrames = []string{
 * In [`./frames/frames.go`](./frames/frames.go), add your animation to the `FrameMap`
 * Commit and push your changes, and make a PR! If this is your first time making a PR, [check GitHub's help page on the topic](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
 
-## CHANGING FRAME SPEED IS INDIDE frames.go IN BOLD COMMENTS
+##@@
+## CHANGING FRAME SPEED IS INSIDE frames.go IN BOLD COMMENTS
+##@@
 
 ## Frame Contributions
 Here's a list of lovely people who have contributed frames to this project:
