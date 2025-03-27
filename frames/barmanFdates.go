@@ -1,8 +1,8 @@
 package frames
 
-var Kitty = DefaultFrameType(kittyFrames)
+var MR_BAR = DefaultFrameType(BAR_FRAME)
 
-var kittyFrames = []string{
+var BAR_FRAME = []string{
 `
                                                                                                 #(####(#((((##%###(((###((##((##%&&&@                                                                  
                                                                                                //(((#%%%%###%%#(###%########%##%#((####(%&(                                                             
