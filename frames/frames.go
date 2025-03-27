@@ -41,6 +41,7 @@ func DefaultFrameType(frames []string) FrameType {
 var FrameMap = map[string]FrameType{
 	"batman":          Batman,
 	"batman-running":  BNR,
+	"barmanFdates":    BAR,	
 	"bnr":             BNR,
 	"can-you-hear-me": Rick,
 	"clock":           Clock,
