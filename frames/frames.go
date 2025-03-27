@@ -25,7 +25,7 @@ func DefaultGetLength(frames []string) func() int {
 // Sleep time between frames
 func DefaultGetSleep() func() time.Duration {
 	return func() time.Duration {		//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@2@@@@@@
-		return time.Millisecond * 70   //<--------USE THIS TO CHANGE HOW FAST FRAMES CHANGE!!!!		@
+		return time.Millisecond * 200   //<--------USE THIS TO CHANGE HOW FAST FRAMES CHANGE!!!!		@DEFAULT 70
 	}					//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 }
 
