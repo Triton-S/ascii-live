@@ -24,9 +24,9 @@ func DefaultGetLength(frames []string) func() int {
 
 // Sleep time between frames
 func DefaultGetSleep() func() time.Duration {
-	return func() time.Duration {
-		return time.Millisecond * 70
-	}
+	return func() time.Duration {		//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@2@@@@@@
+		return time.Millisecond * 70   //<--------USE THIS TO CHANGE HOW FAST FRAMES CHANGE!!!!		@
+	}					//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 }
 
 // Given frames, create a FrameType with those frames
@@ -41,7 +41,7 @@ func DefaultFrameType(frames []string) FrameType {
 var FrameMap = map[string]FrameType{
 	"batman":          Batman,
 	"batman-running":  BNR,
-	"barmanFdates":    BAR,	
+	"barmanFdates":    MR_BAR,		//FORK BASICALLY CHANGES ONLY THIS
 	"bnr":             BNR,
 	"can-you-hear-me": Rick,
 	"clock":           Clock,
